@@ -17,8 +17,6 @@ function App() {
 
       {show && < Content />}
 
-
-
     </div>
   );
 }

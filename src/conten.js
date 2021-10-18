@@ -22,6 +22,7 @@ function Content() {
 
     return (
         <div>
+            <h1>ccc</h1>
             <input value={content} onChange={(e) => setContent(e.target.value)}></input>
             <ul>
                 {post.map((post) =>
