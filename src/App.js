@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useEffect } from 'react';
+
 import Content from './conten'
 
 //false, '', 0, null , NAN use ||
