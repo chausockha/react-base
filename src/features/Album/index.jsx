@@ -1,11 +1,13 @@
 import React from 'react';
 
-const index = () => {
+const TodoForm = () => {
     return (
         <div>
-
+            <form>
+                <input></input>
+            </form>
         </div>
     );
 };
 
-export default index;
+export default TodoForm;
