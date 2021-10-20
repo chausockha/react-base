@@ -16,8 +16,6 @@ function Pagination(props) {
     function handleClick(newPage) {
         if (!onChangePage) return;
         onChangePage(newPage)
-
-
     }
     return (
         <div>
