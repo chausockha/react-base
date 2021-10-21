@@ -14,7 +14,8 @@ TodoList.defaultProps = {
 }
 
 function TodoList({ todoList, onTodoList, todoDelete }) {
-    const handleClick = (todo, index) => {
+    const handleClick = (e, todo, index) => {
+        e.preventDefault()
         if (!onTodoList) return;
         onTodoList(todo, index);
     }
@@ -30,7 +31,7 @@ function TodoList({ todoList, onTodoList, todoDelete }) {
                     completed: todo.status === 'completed'
                 })} key={index}  >
 
-                    <a onClick={() => handleClick(todo, index)}>{todo.title}</a>
+                    <label onClick={(e) => handleClick(e, todo, index)}>{todo.title}</label>
                     <button onClick={() => handleDelete(index)} style={{ margin: 12 }}>X</button>
                 </li>
 

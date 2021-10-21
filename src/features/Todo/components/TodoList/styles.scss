@@ -4,9 +4,8 @@
 	}
 	& > li.completed {
 		color: #ccc;
+
 		font-style: italic;
 		text-decoration: line-through;
-	}
-	& > li > a {
 	}
 }

@@ -78,7 +78,7 @@ function TodoFeature(props) {
 
         newTodoList[index] = {
             ...newTodoList[index],
-            title: 'ANH YÊU EMMMMMMMMMMM!',
+            // title: '',
             status: newTodoList[index].status === 'completed' ? 'new' : 'completed'
         };
         //update todo
