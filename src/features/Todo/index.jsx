@@ -6,7 +6,6 @@ import TodoForm from '../TodoForm'
 import PostList from './components/PostList'
 import Pagination from './components/Pagination'
 
-import PropTypes from 'prop-types';
 const initTodoList = [
     {
         id: 1,
